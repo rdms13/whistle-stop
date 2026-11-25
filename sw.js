@@ -6,8 +6,8 @@
  * earlier when the page asks it to (the app does that while it is hidden in the background,
  * so a phone that never quits the app still picks up the new version). The old cache is
  * deleted once the new worker is active. */
-const VERSION = "f598f5199576";
-const PRECACHE = ["./","assets/index-9jB6yApI.js","assets/index-ofyQwkww.css","assets/worker-Bxtgldc7.js","icons/apple-touch-icon.png","icons/favicon-32.png","icons/favicon.svg","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","icons/icon.svg","index.html","manifest.webmanifest"];
+const VERSION = "035aecad33b9";
+const PRECACHE = ["./","assets/index-4hV1YTO-.js","assets/index-B7gpntcC.css","assets/worker-Bxtgldc7.js","icons/apple-touch-icon.png","icons/favicon-32.png","icons/favicon.svg","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","icons/icon.svg","index.html","manifest.webmanifest"];
 const CACHE = `whistle-stop-${VERSION}`;
 const scopeUrl = (path) => new URL(path, self.registration.scope).href;
 // Some hosts send "Vary: Origin"; module scripts are requested with an Origin header and the
